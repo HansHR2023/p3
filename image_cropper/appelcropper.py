@@ -25,6 +25,7 @@ counter = 0
 for img in my_upload:
     fixed_img = fix_image(img)
     counter += 1
-    fixed_img.save(f"./proefcropper/fixed{counter}.png")
+    # fixed_img.save(f"./proefcropper/fixed{counter}.png")
+    fixed_img.save(f"fixed{counter}.png")
 
 # pad = "./proefcropper"
